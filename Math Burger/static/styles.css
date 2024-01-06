@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.heading {
+    text-align: center;
+    border: 2px solid #dbecfb;
+    width:100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-bottom-left-radius: 2px ;
+    border-bottom-right-radius: 2px;
+    background: #e9f1f9;
+}
+
+
+
+.container {
+    width: 70%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.table-container{
+    margin-top:50px
+}
+
+.tables h2{
+    text-align: center;
+    margin-bottom: 9px;
+    
+}
+.tables input{
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #545454;
+    padding: 5px 0;
+    background-color: transparent;
+    outline: none;
+}
+
+.tables input::placeholder{
+    color: rgb(80, 80, 80)
+}
+
+
+.x-tasks{
+    background-color: #FFB841;
+}
+.quad-eq{
+    background-color: #bde0fe;
+}
+.inequality{
+    background: #b4ebc7;
+}
+.x-tasks, .quad-eq, .inequality {
+    width: 900px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+
+.x-tasks input, .quad-eq input, .inequality input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px
+}
+
+.x-tasks button, .quad-eq button, .inequality button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.output {
+    border: 3px solid rgb(75, 74, 74);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.x-tasks button, .quad-eq button, .inequality button {
+    display: block;
+    margin: 10px auto;
+    color: white;
+    padding-block: 15px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 36px
+}
+
+main button:hover {
+    transform: scale(1.03);
+
+  }
+  
+main button:active {
+    transform: scale(1);
+    
+  }
+
+  .x-tasks button{
+    background: linear-gradient(45deg, #ed9a0a 0%, #f39c06 100%);
+    
+  }
+
+
+
+  .quad-eq button{
+    background: #4990e2;
+  }
+  .inequality button{
+    background: #49cc90;
+  }
+
+footer svg:hover{
+    opacity: 72%;
+}
+
+
